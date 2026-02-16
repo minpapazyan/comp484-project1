@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>The Way of the Ghost | Home</title>
+    <meta
+      name="description"
+      content="The Way of the Ghost is a clean fan site for Ghost of Tsushima covering story, characters, and the atmosphere of Tsushima."
+    />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>The Way of the Ghost</h1>
+        <p class="tagline">A clean fan site for <em>Ghost of Tsushima</em></p>
+
+        <!-- MDN attribute: aria-label (not covered in class). Adds an accessible label for screen readers. -->
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul>
+            <li><a class="active" href="index.html" title="Go to Home page">Home</a></li>
+            <li><a href="story.html" title="Read about the story and setting">Story &amp; Setting</a></li>
+            <li><a href="characters.html" title="Meet the main characters">Characters</a></li>
+            <li><a href="gameplay.html" title="Explore gameplay and atmosphere">Gameplay</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- MDN attribute: tabindex (not covered in class). Makes this section focusable by keyboard navigation. -->
+      <section class="card" tabindex="0">
+        <h2>About the Game</h2>
+
+        <p>
+          <em>Ghost of Tsushima</em> is an open-world action-adventure game set on Tsushima Island during
+          the Mongol invasion of Japan. You play as Jin Sakai, a samurai who faces a difficult choice:
+          follow the traditional code of honor or adapt to new tactics in order to protect his homeland.
+        </p>
+
+        <p>
+          The game is known for its cinematic presentation, strong atmosphere, and a world design that
+          encourages exploration without constantly relying on heavy UI. Its storytelling focuses on duty,
+          sacrifice, and how identity can change under pressure.
+        </p>
+
+        <h3>Core Experience</h3>
+        <ul>
+          <li>Exploration guided by natural cues (like wind and landmarks)</li>
+          <li>Precise sword combat that rewards timing and awareness</li>
+          <li>Storytelling that balances action with quieter character moments</li>
+        </ul>
+
+        <div class="facts">
+          <h3>Quick Facts</h3>
+          <ul>
+            <li>
+              Release date:
+              <!-- MDN element: <time> (not covered in class). Marks a real-world date semantically. -->
+              <time datetime="2020-07-17">July 17, 2020</time>
+            </li>
+            <li>Genre: Action-adventure / open world</li>
+            <li>Setting: Tsushima Island, Japan</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card" tabindex="0">
+        <h2>Featured Image</h2>
+
+        <div class="media">
+          <img
+            src="images/hero.jpg"
+            alt="A cinematic scene from Ghost of Tsushima with a samurai silhouette"
+          />
+          <p class="caption">
+            Quiet landscapes, strong winds, and the feeling of a world under pressure.
+          </p>
+        </div>
+
+        <p>
+          This site is designed as a simple fan-made overview: spoiler-light story context, a character spotlight,
+          and a high-level look at how the game feels to play. The goal is to keep the layout clean and readable
+          while showing good HTML structure and consistent styling.
+        </p>
+      </section>
+
+      <section class="card" tabindex="0">
+        <h2>Inspiration</h2>
+
+        <p>
+          The tone and framing often feel inspired by classic samurai cinema. One example is
+          <!-- MDN element: <cite> (not covered in class). Used to cite the title of a creative work. -->
+          <cite>Seven Samurai</cite>, which influenced the broader style and themes of many modern samurai stories.
+        </p>
+
+        <p>
+          The game also captures a “movie-like” feeling through wide scenic shots, dramatic lighting,
+          and a strong focus on atmosphere. It’s the kind of experience where the environment itself
+          helps tell the story.
+        </p>
+
+        <!-- MDN attribute: hidden (not covered in class). Hides content from view and assistive tech. -->
+        <p hidden>
+          Hidden paragraph example for the project requirement. This text is intentionally not visible.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="muted">
+          <!-- MDN element: <small> (not covered in class). Used for small print / disclaimers. -->
+          <small>
+            Fan-made site for educational purposes (COMP 484 Project 1). 
+          </small>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
